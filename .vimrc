@@ -7,43 +7,43 @@ call vundle#begin()
 "call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
-Plugin 'VundleVim/Vundle.vim'
+"Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " " Keep Plugin commands between vundle#begin/end.
 " " plugin on GitHub repo
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 " " plugin from http://vim-scripts.org/vim/scripts.html
-Plugin 'ascenator/L9', {'name': 'newL9'}
+"Plugin 'ascenator/L9', {'name': 'newL9'}
 " " Git plugin not hosted on GitHub
-Plugin 'git://git.wincent.com/command-t.git'
+"Plugin 'git://git.wincent.com/command-t.git'
 " " git repos on your local machine (i.e. when working on your own plugin)
 " Plugin 'file:///home/gmarik/path/to/plugin'
 " " The sparkup vim script is in a subdirectory of this repo called vim.
 " " Pass the path to set the runtimepath properly.
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'The-NERD-Commenter'
-Plugin 'jellybeans.vim'
-Plugin 'vividchalk.vim'
+"Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"Plugin 'The-NERD-Commenter'
+"Plugin 'jellybeans.vim'
+"Plugin 'vividchalk.vim'
 "Plugin 'Syntastic'
-Plugin 'altercation/vim-colors-solarized' 
+"Plugin 'altercation/vim-colors-solarized' 
 "Plugin 'hybrid.vim'
-Plugin 'taglist.vim'
-Plugin 'scrooloose/nerdtree' 
-Plugin 'mattn/emmet-vim'
-Plugin 'https://github.com/Lokaltog/vim-powerline'
+"Plugin 'taglist.vim'
+"Plugin 'scrooloose/nerdtree' 
+"Plugin 'mattn/emmet-vim'
+"Plugin 'https://github.com/Lokaltog/vim-powerline'
 "Plugin 'Yggdroot/indentLine'
-Plugin 'https://github.com/nathanaelkane/vim-indent-guides.git'
-Plugin 'chase/vim-ansible-yaml'  
-Plugin 'lepture/vim-jinja'
-Plugin 'hynek/vim-python-pep8-indent'
+"Plugin 'https://github.com/nathanaelkane/vim-indent-guides.git'
+"Plugin 'chase/vim-ansible-yaml'  
+"Plugin 'lepture/vim-jinja'
+"Plugin 'hynek/vim-python-pep8-indent'
 
 "Plugin 'derekwyatt/vim-scala'
 " " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 "
 " " All of your Plugins must be added before the following line
-call vundle#end()            " required
+"call vundle#end()            " required
 
 "folding settings
 set foldmethod=indent   "fold based on indent
